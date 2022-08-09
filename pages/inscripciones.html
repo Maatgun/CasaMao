@@ -4,32 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/26d8cbed11.js" crossorigin="anonymous"></script>
     <title>CASA MAO</title>
 </head>
 <body>
     <header>
-        <img src="../img/MAOHEADER.png" alt="">
 
         <nav>
-            <div>
-                <input type="checkbox" id="check">
-                <label for="check" class="bar-btm">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
-                <ul class="nav-menu">
-                    <li><a class="active" href="../index.html">Inicio</a></li>
-                    <li><a href="./galeria.html">Galeria</a></li>
-                    <li><a href="./inscripciones.html">Inscripciones</a></li>
-                    <li><a href="./gruposcompetencia.html">Grupos Competencia</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-xl navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="../img/MAOHEADER.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+                        aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse show" id="navbarBasic">
+                        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./gruposcompetencia.html">Grupos Competencia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./inscripciones.html">Inscripciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </nav>
     </header>
             <main>
             <section class="inscripciones">
-            <h1>Inscripciones en "CASA MAO"</h1>
+            <h1><b>Inscripciones en "CASA MAO"</b></h1>
             <h2>Las inscripciones en CASA MAO están abiertas a todo público.</h2>
                 <p>Contamos con diferentes niveles y categorias de danzas.
                 contamos con inscripciones durante todo el transcurso del año y podes sumarte cuando quieras.
@@ -37,9 +53,105 @@
                 recibimos todos los medios de pagos!!
             </p>
         </section>
-            <div class="fondo">
-            <img src="../img/MAOLOGO2.png" alt="">
-</div>
+        <section class="form2">
+        <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+            <div class="wrapper wrapper--w680">
+                <div class="card card-4">
+                    <div class="card-body">
+                        <h2 class="title">Formulario de Inscripción</h2>
+                        <form method="POST">
+                            <div class="">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Nombre</label>
+                                        <input class="input--style-4" type="text" name="first_name">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Apellido</label>
+                                        <input class="input--style-4" type="text" name="last_name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Fecha de Nacimiento</label>
+                                        <div class="input-group-icon">
+                                            <input class="input--style-4 js-datepicker" type="text" name="birthday">
+                                            <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Género</label>
+                                        <div class="p-t-10">
+                                            <label class="radio-container m-r-45">Hombre
+                                                <input type="radio" checked="checked" name="gender">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="radio-container">Mujer
+                                                <input type="radio" name="gender">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="radio-container">No Binario
+                                                <input type="radio" name="gender">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="radio-container">Otro
+                                                <input type="radio" name="gender">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Email</label>
+                                        <input class="input--style-4" type="email" name="email">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Nº Tel/Cel</label>
+                                        <input class="input--style-4" type="text" name="phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label class="label">Danza</label>
+                                <div class="rs-select2 js-select-simple select--no-search">
+                                    <select name="Elegir">
+                                        <option disabled="disabled" selected="selected">Elegir Opción</option>
+                                        <option>Contemporáneo Inicial</option>
+                                        <option>Contemporáneo Inter/Avanzado</option>
+                                        <option>Waacking Inicial</option>
+                                        <option>Waacking Inter/Avanzado</option>
+                                        <option>Hip-Hop Inicial</option>
+                                        <option>Hip-Hop Inter/Avanzado</option>
+                                        <option>Heels Inicial</option>
+                                        <option>Heels Inter/Avanzado</option>
+                                        <option>Danza Clásica Inicial</option>
+                                        <option>Danza Clásica Inter/Avanzado</option>
+                                        <option>Urbano Kids +6</option>
+                                        <option>Ballet Jardín +3</option>
+                                    </select>
+                                    <div class="select-dropdown"></div>
+                                </div>
+                            </div>
+                            <div class="p-t-15">
+                                <button class="btn btn--radius-2 btn--danger" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
             </main> 
             <footer>
                 <img src="../img/MAOLOGO2.png" alt="maologo">
@@ -53,5 +165,8 @@
                     <a href="https://www.instagram.com/espacio.dearte/"><img src="../img/instagram.png" alt="instagram"></a>
                 </div>
             </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 </body>
 </html>

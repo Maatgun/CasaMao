@@ -251,7 +251,22 @@ form textarea {
 
 }
 
+.title{
+    text-align: center;
+    margin: 20px;
+}
 
+    .input-group{
+        margin: 20px;
+    }
+
+    .label{
+        margin:3px;
+    }
+
+    .container{
+        margin: 20px;
+    }
 /*-----MEDIA QUERIES-----*/
 
 
@@ -285,13 +300,6 @@ form textarea {
 }
 
 @media screen and (max-width:760px) {
-    header {
-        flex-direction: column;
-    }
-
-    header nav {
-        flex-direction: column;
-    }
 
     .grid-galeria {
         grid-template-columns: (1fr);
@@ -324,18 +332,27 @@ form textarea {
         display: flex;
         flex-direction: column;
     }
+
+    .container{
+        margin: 5px;
+
+    }
+
+}
+
+@media screen and (max-width:577px){
+    .container-2{
+        display: flex;
+        margin: 10px;
+    }
+    .form2{
+    flex-direction: column;
+    width: auto;
+}
 }
 
 
 @media screen and (max-width:480px) {
-
-    header {
-        flex-direction: column;
-    }
-
-    header nav {
-        flex-direction: column;
-    }
 
     .grid-galeria {
         grid-template-columns: 1fr;
@@ -359,6 +376,8 @@ footer div a img {
     width: 15px;
     height: 15px;
 }
+
+
 /*-------FOOTER------*/
 
 footer {
