@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*-----MEDIA QUERIES-----*/
+
+
+@media screen and (max-width:980px) {
+    header {
+        flex-direction: column;
+    }
+
+    .video {
+        flex-direction: column;
+    }
+}
+
+.ubicacion {
+    width: 100%;
+}
+
+@media screen and (max-width:760px) {
+
+    .info h3 {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 17px;
+    }
+
+    .video {
+        flex-direction: column;
+    }
+
+    .boton-fixed img {
+        display: none;
+    }
+
+    .hoja {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        margin: 5px;
+
+    }
+
+}
+
+@media screen and (max-width:577px){
+    .container-2{
+        display: flex;
+        margin: 10px;
+    }
+    .form2{
+    flex-direction: column;
+    width: auto;
+}
+}
+
+
+@media screen and (max-width:480px) {
+
+.derechos{
+    font-size: px;
+    text-align: center;
+}
+
+footer div a img {
+    width: 15px;
+    height: 15px;
+}
+}
