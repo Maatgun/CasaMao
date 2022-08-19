@@ -1,0 +1,11 @@
+@mixin textos {
+    color:black;
+    text-align: center;
+    font-size:18px;
+    font-family:SuisseIntl, NeueHelvetica55Roman, sans-serif;
+    margin: 10px;
+}
+
+p {
+    @include textos;
+}

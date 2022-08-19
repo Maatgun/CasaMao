@@ -1,0 +1,60 @@
+@import url(../base/_responsive.scss);
+@import url(../base/_mixin.scss);
+.galeria {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    color: black;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.galeria {
+    h1 {
+        font-family: SuisseIntl, NeueHelvetica55Roman, sans-serif;
+        font-size: 60px;
+        border: 3px $color-tres solid;
+        text-align: center;
+        line-height: 1.2;
+    }
+}
+
+.galeria {
+    p {
+        @include textos;
+    }
+}
+
+.grid-galeria {
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2fr, 1fr);
+    gap: 15px;
+}
+
+.grid-galeria {
+    div {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            box-shadow: 2px 6px 11px 0px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 2px 6px 11px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 2px 6px 11px 0px rgba(0, 0, 0, 0.75);
+        }
+    }
+}
+
+
+.img-3 {
+        grid-column: span 2;
+    }
+
+.img-6 {
+        grid-column: span 2;
+    }
+    

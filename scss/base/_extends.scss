@@ -1,0 +1,11 @@
+/*---EXTENDS---*/
+
+%flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video{
+    @extend %flex;
+}

@@ -1,0 +1,9 @@
+//* MAPAS
+
+$fondo:(
+    "blanco":white,
+);
+
+form {
+    background: map-get($fondo , "blanco" );
+}

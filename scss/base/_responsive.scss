@@ -1,0 +1,99 @@
+
+@media screen and (max-width:980px) {
+    header {
+        flex-direction: column;
+    }
+
+    .video {
+        flex-direction: column;
+    }
+}
+
+.grid-galeria {
+    grid-template-columns: (2, 1fr);
+}
+
+.fondo {
+    flex-direction: column;
+}
+
+
+.ubicacion {
+    width: 100%;
+}
+
+@media screen and (max-width:760px) {
+
+    .grid-galeria {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .grid-galeria .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .info h3 {
+        font-size: 20px;
+    }
+
+    .info p {
+        font-size: 17px;
+    }
+
+    .video {
+        flex-direction: column;
+    }
+
+    .boton-fixed img {
+        display: none;
+    }
+
+    .hoja {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        margin: 5px;
+
+    }
+
+}
+
+@media screen and (max-width:577px){
+    .container-2{
+        display: flex;
+        margin: 10px;
+    }
+    .form2{
+    flex-direction: column;
+    width: auto;
+}
+}
+
+
+@media screen and (max-width:480px) {
+
+    .grid-galeria {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .grid-galeria .grid-item {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}
+
+
+.derechos{
+    font-size: px;
+    text-align: center;
+}
+
+footer div a img {
+    width: 15px;
+    height: 15px;
+}

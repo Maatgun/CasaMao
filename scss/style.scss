@@ -1,6 +1,15 @@
+/*--BASES--*/
 @import"./base/generales";
 @import"./base/variables";
+@import"./base/responsive";
+@import"./base/mixin";
+@import"./base/extends";
+@import"./base/maps";
+
+/*--Componentes--*/
+
 @import"./components/body";
 @import"./components/header";
 @import"./components/main";
 @import"./components/footer";
+@import"./components/galeria";
