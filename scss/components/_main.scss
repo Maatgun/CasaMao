@@ -37,7 +37,8 @@ main {
         gap: 20px;
         margin: 20px;
     }
-    
+
+
     form {
         box-shadow: 0 0 20px 0 $color-tres;
         padding: 2em;
@@ -71,7 +72,6 @@ main {
             bottom: 40px;
         }
     }
-
     .texto {
         .titulo {
             h3 {
@@ -94,6 +94,7 @@ main {
             }
         }
     }
+
 
     .inscripciones {
         h1 {
@@ -137,8 +138,8 @@ main {
 
     .form2{
         .input-group{
-            .label{
-                margin: 3px;
+            label{
+                margin: 6px;
             }
         }
     }
