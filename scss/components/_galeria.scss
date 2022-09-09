@@ -14,7 +14,7 @@
 
 .galeria {
     h1 {
-        font-family: SuisseIntl, NeueHelvetica55Roman, sans-serif;
+        @include font;
         font-size: 60px;
         border: 3px $color-tres solid;
         text-align: center;

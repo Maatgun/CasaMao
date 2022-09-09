@@ -7,7 +7,7 @@
     .video {
         flex-direction: column;
     }
-}
+
 
 .grid-galeria {
     grid-template-columns: (2, 1fr);
@@ -17,9 +17,6 @@
     flex-direction: column;
 }
 
-
-.ubicacion {
-    width: 100%;
 }
 
 @media screen and (max-width:760px) {
@@ -63,13 +60,12 @@
 }
 
 @media screen and (max-width:577px){
-    .container-2{
-        display: flex;
-        margin: 10px;
-    }
-    .form2{
+.form2{
     flex-direction: column;
-    width: auto;
+}
+.ubicacion .map{
+    width: 85%;
+    margin-left: 3em;
 }
 }
 
@@ -85,15 +81,18 @@
         grid-column: span 1;
         grid-row: span 1;
     }
+
+
+.form2{
+    flex-direction: column;
 }
-
-
-.derechos{
-    font-size: px;
+footer{
+    flex-direction: column;
+}
+footer .derechos{
+    font-size: 15px;
     text-align: center;
 }
 
-footer div a img {
-    width: 15px;
-    height: 15px;
+
 }

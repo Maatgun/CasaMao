@@ -9,3 +9,12 @@
 p {
     @include textos;
 }
+
+@mixin font{
+    font-family:SuisseIntl, NeueHelvetica55Roman, sans-serif;
+}
+
+.informacion{
+    @include font;
+}
+

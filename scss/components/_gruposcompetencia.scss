@@ -1,0 +1,22 @@
+.texto {
+    .titulo {
+        h3 {
+            font-size: 30px;
+            text-align: center;
+            margin: 30px;
+
+        }
+    }
+}
+
+.texto {
+    .titulo {
+        .parrafo {
+            p {
+                text-align: center;
+                font-size: 16px;
+                @include font;
+            }
+        }
+    }
+}
