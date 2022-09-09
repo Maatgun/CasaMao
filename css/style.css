@@ -39,21 +39,33 @@
 
 @media screen and (max-width: 577px) {
   .form2 {
+<<<<<<< HEAD
     flex-direction: column; }
   .ubicacion .map {
     width: 85%;
     margin-left: 3em; } }
+=======
+    flex-direction: column; } }
+>>>>>>> 17dfbdf57fea68a17d7012898a3c57f9916c3d55
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 577px) and (max-width: 480px) {
   .grid-galeria {
     grid-template-columns: 1fr; }
   .grid-galeria .grid-item {
     grid-column: span 1;
+<<<<<<< HEAD
     grid-row: span 1; }
   .form2 {
     flex-direction: column; }
   footer {
     flex-direction: column; }
+=======
+    grid-row: span 1; } }
+
+@media screen and (max-width: 577px) {
+  .form2 {
+    flex-direction: column; }
+>>>>>>> 17dfbdf57fea68a17d7012898a3c57f9916c3d55
   footer .derechos {
     font-size: 15px;
     text-align: center; } }

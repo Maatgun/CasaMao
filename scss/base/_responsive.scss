@@ -60,13 +60,22 @@
 }
 
 @media screen and (max-width:577px){
+<<<<<<< HEAD
 .form2{
     flex-direction: column;
 }
 .ubicacion .map{
     width: 85%;
     margin-left: 3em;
+=======
+    .container-2{
+        display: flex;
+        margin: 10px;
+>>>>>>> 17dfbdf57fea68a17d7012898a3c57f9916c3d55
 }
+
+.form2{
+    flex-direction: column;
 }
 
 
@@ -82,6 +91,7 @@
         grid-row: span 1;
     }
 
+<<<<<<< HEAD
 
 .form2{
     flex-direction: column;
@@ -95,4 +105,13 @@ footer .derechos{
 }
 
 
+=======
+.form2{
+    flex-direction: column;
+}
+footer .derechos{
+    font-size: 15px;
+    text-align: center;
+}
+>>>>>>> 17dfbdf57fea68a17d7012898a3c57f9916c3d55
 }

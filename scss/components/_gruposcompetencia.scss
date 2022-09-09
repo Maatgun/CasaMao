@@ -15,7 +15,11 @@
             p {
                 text-align: center;
                 font-size: 16px;
+<<<<<<< HEAD
                 @include font;
+=======
+                font-family: SuisseIntl, NeueHelvetica55Roman, sans-serif;
+>>>>>>> 17dfbdf57fea68a17d7012898a3c57f9916c3d55
             }
         }
     }
